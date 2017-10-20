@@ -31,6 +31,15 @@ br {
 	text-decoration: none;
 }
 
+.class3 {
+	color:#000000;
+	font:normal 15px Arial, sans-serif;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-decoration: none;
+}
+
+
 
 #wrapper {
 	margin:0 auto;
@@ -43,7 +52,9 @@ br {
 	padding-top:20px;
 	padding-bottom:20px;
 	text-align: center;
-	clear:both;
+	position: fixed;
+	width:100%;
+    clear:both;
 }
 
 
@@ -54,7 +65,7 @@ br {
 
 
 #intro {
-	padding-top: 50px;
+	padding-top: 100px;
 }
 #intro-left {
 	width:249px;
