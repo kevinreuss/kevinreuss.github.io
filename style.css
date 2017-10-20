@@ -112,7 +112,6 @@ a {
 
 
 #footer {
-	margin-top:50px;
 	margin-bottom:50px;
 	background:#f7f7f7;
 	border:1px solid #f0e9eb;
@@ -123,7 +122,7 @@ a {
 }
 
 #space {
-	height:10px;
+	height:40px;
 	background:#ffffff;
 	clear:both;
 }
