@@ -25,6 +25,13 @@ a {
 	text-decoration: none;
 }
 
+a2 {
+	color:#000000;
+	font:normal 15px Arial, sans-serif;
+	text-decoration: none;
+}
+
+
 #wrapper {
 	margin:0 auto;
 	width:1000px;
