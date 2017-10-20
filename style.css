@@ -18,14 +18,14 @@ br {
     margin-top: 5px;
 }
 
-a {
+.class1 {
 	color:#000000;
 	font:normal 15px Arial, sans-serif;
 	border-bottom: 1px dotted #000;
 	text-decoration: none;
 }
 
-a2 {
+.class2 {
 	color:#000000;
 	font:normal 15px Arial, sans-serif;
 	text-decoration: none;
