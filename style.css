@@ -38,13 +38,14 @@ br {
 }
 
 #header {
-	padding-top: 10px;
+	background:#f7f7f7;
+	border:1px solid #f0e9eb;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align: center;
+	clear:both;
 }
 
-#bg {
-	height:36px;
-	background:url('http://img840.imageshack.us/img840/9886/87926428.gif') repeat-x;
-}
 
 #main-image {
 	text-align:center;
