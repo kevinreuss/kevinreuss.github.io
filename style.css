@@ -176,3 +176,16 @@ h6 {
 	font:bold 17px Arial, Helvetica, sans-serif;
 	border-bottom:1px solid #efece7;
 }
+
+h7 {
+
+	color:#000000;
+	font:normal 15px Arial, Helvetica, sans-serif;
+	margin-bottom:5px;
+}
+
+h8 {
+	color:#000000;
+	font:normal 15px Arial, Helvetica, sans-serif;
+	margin-top:15px;
+}	
