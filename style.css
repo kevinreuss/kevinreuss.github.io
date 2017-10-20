@@ -20,7 +20,9 @@ br {
 
 a {
 	color:#000000;
-	font:normal 15px Arial, Helvetica, sans-serif;
+	font:normal 15px Arial, sans-serif;
+	border-bottom: 1px dotted #000;
+	text-decoration: none;
 }
 
 #wrapper {
