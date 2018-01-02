@@ -1,4 +1,3 @@
-/* Layout */
 
 body {
     font:normal 12px/1.6em Arial, Helvetica, sans-serif;
@@ -13,19 +12,51 @@ p {
 	padding:0;
 }
 
+br {
+	display: block;
+    content: "";
+    margin-top: 5px;
+}
+
+.class1 {
+	color:#000000;
+	font:normal 15px Arial, sans-serif;
+	border-bottom: 1px dotted #000;
+	text-decoration: none;
+}
+
+.class2 {
+	color:#000000;
+	font:normal 15px Arial, sans-serif;
+	text-decoration: none;
+}
+
+.class3 {
+	color:#000000;
+	font:normal 15px Arial, sans-serif;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-decoration: none;
+}
+
+
+
 #wrapper {
 	margin:0 auto;
 	width:1000px;
 }
 
 #header {
-	padding-top: 10px;
+	background:#f7f7f7;
+	border:1px solid #f0e9eb;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align: center;
+	position: fixed;
+	width:100%;
+    clear:both;
 }
 
-#bg {
-	height:36px;
-	background:url('http://img840.imageshack.us/img840/9886/87926428.gif') repeat-x;
-}
 
 #main-image {
 	text-align:center;
@@ -34,7 +65,7 @@ p {
 
 
 #intro {
-	padding-top: 50px;
+	padding-top: 100px;
 }
 #intro-left {
 	width:249px;
@@ -80,31 +111,46 @@ p {
 	clear:both;
 }
 #project-entry {
-	margin-top:20px;
-	margin-bottom:20px;
+	margin-top:30px;
 	clear:both;
 }
 #project-left {
 	width:400px;
 	padding-top:20px;
+	margin-bottom: 10px;
 	float:left;
 }
 #project-right {
 	width:550px;
 	padding-left: 40px;
 	padding-top:20px;
+	margin-bottom: 10px;
+	height:100%;
 	float:left;
 }
 
 
+
+
 #footer {
-	margin-top:50px;
 	margin-bottom:50px;
 	background:#f7f7f7;
-	border-top:1px solid #f0e9eb;
+	border:1px solid #f0e9eb;
 	padding-top:20px;
 	padding-bottom:20px;
 	text-align: center;
+	clear:both;
+}
+
+#space {
+	height:40px;
+	background:#ffffff;
+	clear:both;
+}
+
+#space2 {
+	height:5px;
+	background:#ffffff;
 	clear:both;
 }
 
@@ -154,3 +200,16 @@ h6 {
 	font:bold 17px Arial, Helvetica, sans-serif;
 	border-bottom:1px solid #efece7;
 }
+
+h7 {
+
+	color:#000000;
+	font:normal 15px Arial, Helvetica, sans-serif;
+	margin-bottom:5px;
+}
+
+h8 {
+	color:#000000;
+	font:normal 15px Arial, Helvetica, sans-serif;
+	margin-top:15px;
+}	
