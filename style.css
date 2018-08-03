@@ -20,8 +20,7 @@ br {
 
 .class1 {
 	color:#000000;
-	font:normal 15px Arial, sans-serif;
-	border-bottom: 1px dotted #000;
+	font:bold 15px Arial, sans-serif;
 	text-decoration: none;
 }
 
@@ -36,6 +35,12 @@ br {
 	font:normal 15px Arial, sans-serif;
 	margin-left: 20px;
 	margin-right: 20px;
+	text-decoration: none;
+}
+
+.class4 {
+	color:#000000;
+	font:bold 25px Arial, sans-serif;
 	text-decoration: none;
 }
 
@@ -183,7 +188,7 @@ h4 {
 	font:normal 15px Arial, Helvetica, sans-serif;
 	margin:0px;
 	padding-bottom:0px;
-}	
+}
 
 h5 {
 	color:#000000;
@@ -212,4 +217,10 @@ h8 {
 	color:#000000;
 	font:normal 15px Arial, Helvetica, sans-serif;
 	margin-top:15px;
-}	
+}
+
+h9 {
+  color:#000000;
+	font:bold 20px Arial, Helvetica, sans-serif;
+	padding-bottom:10px;
+}
