@@ -200,12 +200,12 @@ br {
 	clear:both;
 }
 #project-left {
-	width:350px;
+	width:200px;
 	float:left;
 	text-align: left;
 }
 #project-right {
-	width:450px;
+	width:600px;
 	float:right;
 	text-align: left;
 }
@@ -311,12 +311,10 @@ h6 {
 }
 
 h7 {
-	
-	border-bottom:1px solid #efece7;
-
-	color:#000000;
-	font:normal 15px Arial, Helvetica, sans-serif;
-	margin-bottom:5px;
+	color:#555555;
+	font:normal 12px Arial, Helvetica, sans-serif;
+	margin-bottom:50px;
+	margin-top:50px;
 }
 
 h8 {
@@ -333,3 +331,32 @@ h9 {
 	font:bold 20px Arial, Helvetica, sans-serif;
 	padding-bottom:10px;
 }
+
+
+
+.button {
+    padding: 10px
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background-color: #222222;
+    border: none;
+    color: white;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #000000;
+}
+
+.button1:hover {
+  background-color: #222222;
+  color: white;
+}
+
